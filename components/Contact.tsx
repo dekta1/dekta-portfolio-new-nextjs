@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact ()  {
   return (
-    <div id="Contact" className="p-4 text-black">
+    <div id="ContactButton" className="p-4 text-white">
         <div className="flex flex-col p-4 justify-center max-w-screen-lg
         mx-auto ">
             <div className="pb-8">
@@ -17,17 +17,17 @@ export default function Contact ()  {
                     <input type="text" id='name' name="name" 
                     placeholder="Enter your name"
                     className="p-2 bg-transparent border-2 rounded-md
-                    text-black text-lg focus:outline-none" />
+                    text-white text-lg focus:outline-none" />
 
                     <input type="text" id='email' name="name"  
                     placeholder="Enter your email"
                     className="my-4 p-2 bg-transparent border-2 rounded-md
-                    text-black text-lg focus:outline-none" />
+                    text-white text-lg focus:outline-none" />
 
                     <textarea id='massage' name="message"
                     placeholder="Enter your massage"
                     className="p-2 bg-transparent border-2 rounded-md
-                    text-black text-lg focus:outline-none h-12"></textarea>
+                    text-white text-lg focus:outline-none h-12"></textarea>
 
                     <button
                     data-cy="submit"

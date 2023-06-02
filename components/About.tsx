@@ -5,7 +5,7 @@ export default function About () {
   return (
     <div id="About">
 
-  <div className="text-black mt-24 h-[105vh]">
+  <div className="text-white mt-24 h-[105vh]">
 
     <div className ="max-w-screen-lg p-4 mx-auto flex flex-col justify-center">
 

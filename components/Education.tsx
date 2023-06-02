@@ -30,14 +30,14 @@ import Image from 'next/image'
 
   return (
     <div id="Education" className="tablet:my-10 "> 
-        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center text-black"> 
+        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center text-white"> 
             <div>
                 <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Education</p>
             </div>
             <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
                 {
                     education.map(({id, src, title, alamat}) => (
-                        <div key={id} className={`hover:scale-105 duration-500 rounded-lg text-xl text-justify text-black`}>
+                        <div key={id} className={`hover:scale-105 duration-500 rounded-lg text-xl text-justify text-white`}>
                             <Image width={300} height={300} src={src} alt=""  className="rounded-lg"/>
                             <p className="mt-4">{title}</p>
                             <p className="mt-4">{alamat}</p>
