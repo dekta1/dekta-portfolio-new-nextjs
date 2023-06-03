@@ -21,7 +21,7 @@ import Image from 'next/image'
                 </p>
                 <div>
                     <Link to="Contact" smooth duration={500} >
-                        <button id="Contact" className="group text-white text-xl font-semibold w-fit px-6 py-3 my-2 flex
+                        <button id="ButtonContact" className="group text-white text-xl font-semibold w-fit px-6 py-3 my-2 flex
                         items-center  rounded-md bg-gradient-to-r from-cyan-500 to
                      to-blue-500 cursor-pointer
                         ">
