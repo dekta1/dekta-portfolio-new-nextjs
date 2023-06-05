@@ -7,12 +7,11 @@ import Image from 'next/image'
  export default function Home ()  {
 
   return (
-    <div id ="Home" className="mx-auto mb-30 ">
-       <div className="bg-gradient-to-b from-green-950 to-gray-900 h-[105vh] w-full
+    <div id ="Home" className="mx-auto p-11">
+       <div className="h-[90vh] w-full
        flex items-center justify-center px-4 md:flex-row py-7">
             <div className="flex flex-col p-10 justify-center"> 
-                <h2 className="text-4xl sm:text-6xl font-bold
-                text-sky-50">HI I'm Juli</h2>
+                <h2 className="text-4xl sm:text-6xl font-bold">HI I'm Juli</h2>
                 <p className="text-white py-5 max-w-md text-xl">
                     I'm a junior Development. now I'm 
                     continuing my studies at Taksu Tech.
@@ -34,8 +33,8 @@ import Image from 'next/image'
                 </div>
             </div>
             <div className=''>
-                <Image width={400} height={400} src={HeroImage} alt="my profile"
-                className="rounded-2xl mx-auto w-2/3 mt-10" />
+                <Image width={389} height={390} src={HeroImage} alt="my profile"
+                className="rounded-2xl mx-auto w-2/3 mt-8" />
             </div>
        </div>
     </div>

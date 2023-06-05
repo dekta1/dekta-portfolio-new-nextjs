@@ -42,8 +42,8 @@ const NavBar = () => {
 
   return (
     <div id='navbar'
-    className='bg-gradient-to-b from-green-950 to-gray-900 h-full w-full'>
-    <div className="flex justify-between items-center w-full px-4 text-sky-50 bg-gray-900 fixed py-3">
+    className='bg-gray-900 h-full w-full text-white'>
+    <div className="flex justify-between items-center w-full px-4 text-sky-50 bg-gray-950 fixed py-3">
         <div>
             <h1 className="text-3xl font-mono ml-2 text-yellow-500">Portfolio</h1>
         </div>

@@ -22,6 +22,16 @@ describe('Navbar', () => {
         cy.visit("http://localhost:3000");
         cy.get("#navbar a").contains(item).click ();
         cy.get("#navbar a").contains(item).click();
+        cy.wait(2000);
       });
     });
-  });
+    });
+  describe("contact test", () => {
+    it("go to the success page when the from id filled and the button is clicked", () => {
+      cy.visit("http://localhost:3000")
+      cy.get("#name").type("Juliantari");
+      cy.get("#email").type("juliantari2320@gmail.com");
+      cy.get("#massage").type("Hi,juli");
+      cy.get('[data-cy="submit"]').click();
+    });
+  })

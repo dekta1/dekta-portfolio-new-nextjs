@@ -46,8 +46,8 @@ import Image from "next/image";
 
     
 
-  return <div id ="Experience" className="">
-    <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center text-white">
+  return <div id ="Experience" className="p-8">
+    <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center">
         <div>
             <p className="text-4xl font-bold border-b-4
             border-gray-500 p-2 inline">Experience</p>
