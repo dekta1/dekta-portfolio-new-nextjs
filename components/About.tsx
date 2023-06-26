@@ -10,7 +10,7 @@ export default function About () {
         <div className="pb-8">
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
-        <p className="py-6 text-2xl">
+        <p className="py-6 text-xl">
             Hi, I'm Putri Juli Antari,
             but my friends call me Juli or Dekta.
             I am a student from Wira Harapan Vocational Schools. 

@@ -8,8 +8,7 @@ import Image from 'next/image'
 
   return (
     <div id ="Home" className="mx-auto p-11">
-       <div className="h-[90vh] w-full
-       flex items-center justify-center px-4 md:flex-row py-7">
+       <div className="max-h-screen w-full flex items-center justify-center px-2 md:flex-row py-7">
             <div className="flex flex-col p-10 justify-center"> 
                 <h2 className="text-4xl sm:text-6xl font-bold">HI I'm Juli</h2>
                 <p className="text-white py-5 max-w-md text-xl">
@@ -32,9 +31,9 @@ import Image from 'next/image'
                     </Link>
                 </div>
             </div>
-            <div className=''>
-                <Image width={389} height={390} src={HeroImage} alt="my profile"
-                className="rounded-2xl mx-auto w-2/3 mt-8" />
+            <div className="">
+                <Image width={400} height={400} src={HeroImage} alt="my profile"
+                className="rounded-lg w-full h-full object-cover" />
             </div>
        </div>
     </div>

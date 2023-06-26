@@ -55,15 +55,13 @@ import Image from "next/image";
             <p className="py-6 text-2xl">These are the technology I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3
-        gap-8 text-center py-8 px-12 sm:px-0">
-            
+        <div className="w-full flex gap-8 text-center py-8 px-12 sm:px-0 sm:flex-col xs:gap-0 xs:flex-col md:flex-row">          
             {
                 experience.map(({id, src, title, style}) => (
                     <div key={id} 
-                    className={`shadow hover:shadow-2xl hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                        <Image src={src} alt=""  className="w-20 mx-auto"/>
-                        <p className="mt-4 text-xl">{title}</p>
+                    className={`shadow hover:shadow-2xl hover:scale-105 w-full duration-500 py-2 rounded-lg  ${style}`}>
+                        <Image src={src} alt=""  className="w-20 mx-auto object-cover"/>
+                        <p className="mt-4 text-lg">{title}</p>
             </div>
                 ))
             }
