@@ -1,10 +1,10 @@
 "use client"
-import About from '../components/About';
-import Contact from '../components/Contact';
-import Experience from '../components/Experience';
-import Education from '../components/Education';
-import Home from '../components/Home';
-import React, { useState } from 'react';
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Experience from "../components/Experience";
+import Education from "../components/Education";
+import Home from "../components/Home";
+import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import {Link} from "react-scroll/modules";
 
@@ -20,29 +20,29 @@ const NavBar = () => {
     const links = [ 
         {
             id:1,   
-            link: 'Home'
+            link: "Home"
         },
         {
             id:2,   
-            link: 'About'
+            link: "About"
         },
         {
             id:3,   
-            link: 'Experience'
+            link: "Experience"
         },
         {
             id:4,   
-            link: 'Education'
+            link: "Education"
         },
         {
             id:5,   
-            link: 'Contact'
+            link: "Contact"
         },
     ];
 
   return (
-    <div id='navbar'
-    className='bg-gray-900 h-full w-full text-white'>
+    <div id="navbar"
+    className="bg-gray-900 h-full w-full text-white">
     <div className="flex justify-between items-center w-full px-4 text-sky-50 bg-gray-950 fixed py-3">
         <div>
             <h1 className="text-3xl font-mono ml-2 text-yellow-500">Portfolio</h1>
