@@ -1,8 +1,8 @@
-import React from 'react';
-import sd from '../components/assets/education/SD.jpg'
-import smp from '../components/assets/education/SMP.jpg'
-import smk from '../components/assets/education/Harapan.jpg'
-import Image from 'next/image'
+import React from "react";
+import sd from "../components/assets/education/SD.jpg"
+import smp from "../components/assets/education/SMP.jpg"
+import smk from "../components/assets/education/Harapan.jpg"
+import Image from "next/image"
 
 
  export default function Education() {
@@ -11,20 +11,20 @@ import Image from 'next/image'
         {
             id: 1,
             src: sd,
-            title: '3 Canggu Elementary School',
-            alamat:'Jl.Raya Babakan No. 28 , Canggu, Kec. Kuta Utara, Kab. Badung Prov. Bali',
+            title: "3 Canggu Elementary School",
+            alamat:"Jl.Raya Babakan No. 28 , Canggu, Kec. Kuta Utara, Kab. Badung Prov. Bali",
         },
         {
             id: 2,
             src: smp,
-            title: '2 Kuta Utara Junior High School',
-            alamat:'Jl. Made Bulet, Br. Tegeh, Desa Dalung, Kecamatan Kuta Utara',
+            title: "2 Kuta Utara Junior High School",
+            alamat:"Jl. Made Bulet, Br. Tegeh, Desa Dalung, Kecamatan Kuta Utara",
         },
         {
             id: 3,
             src: smk,
-            title: 'Wira Harapan vocational schools',
-            alamat:'Jl.Raya Padang Luwih, Br Tegal Jaya, Dalung, Kuta Utara Badung, Bali',
+            title: "Wira Harapan vocational schools",
+            alamat:"Jl.Raya Padang Luwih, Br Tegal Jaya, Dalung, Kuta Utara Badung, Bali",
         },
     ]
 

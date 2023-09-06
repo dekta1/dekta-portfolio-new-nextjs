@@ -1,9 +1,9 @@
-import React from 'react';
-import html from '../components/assets/portfolio/html.png';
-import css from '../components/assets/portfolio/css.png';
-import php from '../components/assets/portfolio/php.png';
-import javascript from '../components/assets/portfolio/javascript.png';
-import java from '../components/assets/portfolio/java.png';
+import React from "react";
+import html from "../components/assets/portfolio/html.png";
+import css from "../components/assets/portfolio/css.png";
+import php from "../components/assets/portfolio/php.png";
+import javascript from "../components/assets/portfolio/javascript.png";
+import java from "../components/assets/portfolio/java.png";
 import Image from "next/image";
 
 
@@ -13,32 +13,32 @@ import Image from "next/image";
         {
             id: 1,
             src: html,
-            title: 'Html',
-            style: 'shadow-orange-500',
+            title: "Html",
+            style: "shadow-orange-500",
         },
         {
             id: 2,
             src: css,
-            title: 'Css',
-            style: 'shadow-blue-500',
+            title: "Css",
+            style: "shadow-blue-500",
         },
         {
             id: 3,
             src: php,
-            title: 'Php',
-            style: 'shadow-gray-500',
+            title: "Php",
+            style: "shadow-gray-500",
         },
         {
             id: 4,
             src: javascript ,
-            title: 'javasrcipt',
-            style: 'shadow-yellow-500',
+            title: "javasrcipt",
+            style: "shadow-yellow-500",
         },
         {
             id: 5,
             src: java,
-            title: 'Java',
-            style: 'shadow-sky-50',
+            title: "Java",
+            style: "shadow-sky-50",
         },
     ]
 
@@ -52,7 +52,7 @@ import Image from "next/image";
             <p className="text-4xl font-bold border-b-4
             border-gray-500 p-2 inline">Experience</p>
 
-            <p className="py-6 text-2xl">These are the technology I've worked with</p>
+            <p className="py-6 text-2xl">These are the technology I&apos;ve worked with</p>
         </div>
 
         <div className="w-full flex gap-8 text-center py-8 px-12 sm:px-0 sm:flex-col xs:gap-0 xs:flex-col md:flex-row">          

@@ -11,15 +11,17 @@ export default function About () {
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
         <p className="py-6 text-xl">
-            Hi, I'm Putri Juli Antari,
+        <p className="py-6 text-xl">
+            Hi, I&apos;m Putri Juli Antari,
             but my friends call me Juli or Dekta.
-            I am a student from Wira Harapan Vocational Schools. 
-            I studied programming for 2 years, 
-            I started programming since 2021. 
-            The only languages ​​I learned were Html, 
-            JavaScript Css, Java, Php and C++. 
-            and now I'm learning a new language that is
+            I am a student from Wira Harapan Vocational Schools.
+            I studied programming for 2 years,
+            I started programming since 2021.
+            The only languages ​​I learned were Html,
+            JavaScript Css, Java, Php and C++.
+            and now I&apos;m learning a new language that is
             Nextjs, React, TypeScript and tailwind.
+</p>
         </p>
     </div>
   </div>
